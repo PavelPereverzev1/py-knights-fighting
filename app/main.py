@@ -1,6 +1,6 @@
 from app.knights_data import KNIGHTS
 from app.models import Knight
-from app.buttle_engine import duel
+from app.battle_engine import duel
 
 
 def battle(knights_config: dict) -> dict:
