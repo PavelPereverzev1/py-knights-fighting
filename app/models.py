@@ -7,7 +7,7 @@ class Knight():
         self.power = knight_data["power"]
         self.hp = knight_data["hp"]
         self.protection = 0
-        self.armor = knight_data["armour"]
+        self.armour = knight_data["armour"]
         self.weapon = knight_data["weapon"]
         self.potion = knight_data["potion"]
         self._apply_armor()
@@ -15,7 +15,7 @@ class Knight():
         self._apply_potion()
 
     def _apply_armor(self) -> None:
-        for arm in self.armor:
+        for arm in self.armour:
             self.protection += arm["protection"]
 
     def _apply_weapon(self) -> None:
